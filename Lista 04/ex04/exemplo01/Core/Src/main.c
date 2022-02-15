@@ -113,12 +113,12 @@ int main(void)
 	  potsoma += HAL_ADC_GetValue(&hadc1);
 	  i++;
 
-	  if (i >= 50){
+	  if (i >= 50){ // 10
 		  potavg = potsoma/i;
 		  voltAvg = 3.3/4095.0 * potavg;
 		  i = 0;
 		  potsoma = 0;
-	  }
+	  } 
 
 	  volt = 3.3 / 4095.0 * pot;
 
