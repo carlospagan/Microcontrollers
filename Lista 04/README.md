@@ -7,3 +7,4 @@ Resolução = Vr/2^n-1 <br>
 Log2 4001 = n <br>
 n = Log4001/log2 <br>
 n = 11,965 <br>
+n =~ 12 
